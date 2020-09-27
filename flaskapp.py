@@ -13,5 +13,5 @@ def index():
 	return 'Hello World'
 
 if __name__ == '__main__':
-	app.run()
-	# application.run(host='0.0.0.0',debug=True)
+	#app.run()
+	app.run(host='0.0.0.0',debug=True)
